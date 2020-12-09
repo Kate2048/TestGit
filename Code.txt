@@ -1,7 +1,6 @@
 import threading
 import time
 import random
-
 rps=(" Камень "," Ножницы "," Бумага ")
 score=[0,0]
 def player1(i):
@@ -38,7 +37,7 @@ def main(i):
     myThread3=threading.Thread(target=game,args=(i,))
     myThread1.start()
     time.sleep(0.02)
-    myThread2.start()
-    time.sleep(0.02)
-    myThread3.start()
+    myThread2.start();
+    time.sleep(0.02);
+    myThread3.start();
 main(10)
