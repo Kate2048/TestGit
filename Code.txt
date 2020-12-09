@@ -42,3 +42,4 @@ def main(i):
     time.sleep(0.02)
     myThread3.start()
 main(10)
+# remove
